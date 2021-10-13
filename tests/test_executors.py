@@ -5,7 +5,7 @@ from jina import Document, DocumentArray
 
 
 def test_subtitle_extractor():
-    data_fn = Path(__file__).parents[1] / 'toy-data' / 'zvXkQkqd2I8.vtt'
+    data_fn = Path(__file__).parent/ 'toy-data' / 'zvXkQkqd2I8.vtt'
     exec = SubtitleExtractor()
     docs = DocumentArray([Document(uri=str(data_fn.absolute()))])
     exec.extract(docs)
