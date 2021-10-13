@@ -1,0 +1,4 @@
+jtype: SubtitleExtractor
+metas:
+  py_modules:
+    - executor.py
