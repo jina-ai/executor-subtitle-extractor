@@ -29,4 +29,4 @@ def test_subtitle_extractor_case2():
     exec.extract(docs)
     for c in docs[0].chunks:
         print(f'{c.location}: {c.text}')
-    assert len(docs[0].chunks) == 13
+    assert len(docs[0].chunks) == 6
