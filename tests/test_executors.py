@@ -9,7 +9,7 @@ def test_subtitle_extractor():
     exec = SubtitleExtractor()
     docs = DocumentArray([Document(uri=str(data_fn.absolute()))])
     exec.extract(docs)
-    assert len(docs[0].chunks) == 231
+    assert len(docs[0].chunks) == 113
 
 
 def test_subtitle_extractor_case1():
