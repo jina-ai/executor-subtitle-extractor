@@ -1,5 +1,5 @@
 from pathlib import Path
-from executors import SubtitleExtractor, MatchExtender, DPRReaderRanker
+from executor import SubtitleExtractor
 
 from jina import Document, DocumentArray
 
