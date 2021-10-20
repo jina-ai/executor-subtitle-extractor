@@ -6,7 +6,7 @@ Suppose you have already downloaded a `.vtt` file:
 
 ```python
 
-data_fn = $PATH_OF_YOUR_VTT_FILE
+data_fn = PATH_OF_YOUR_VTT_FILE
 docs = DocumentArray([Document(uri=str(data_fn.absolute()))])
 f = Flow().add(uses='jinahub://SubtitleExtractor')
 with f:
